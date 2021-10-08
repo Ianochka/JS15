@@ -1,15 +1,15 @@
 .box {
     display: grid;
-    max-width: 300px;
-    margin: 50px;
-    padding: 20px;
+    width: 20%;
+    margin: 3%;
+    padding: 2%;
     border: 2px solid gray;
     background-color: rgb(173, 182, 211);
 }
 
 .number-box {
     display: grid;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .button{
@@ -24,4 +24,12 @@
 
 .result {
     margin-top: 15px;
+}
+
+.title{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.5em;
 }

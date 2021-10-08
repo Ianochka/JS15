@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            height: 100vh;
+        }
+        .title{
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.5em;
+            padding-top: 30px;
+            margin-left: 30px;
+        }
+
+        .options {
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.5em;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper" onchange="changeColor()" id="wrapper">
+        <h3 class="title" id="title">Choose the theme:</h3>
+        <select class="options" id="theme">
+            <option class="option" value="first option">white</option>
+            <option class="option" value="second option">black</option>
+            <option class="option" value="third option">blue</option>
+        </select>
+    </div>
+
+    <script src="./themechange.js"></script>
+</body>
+</html>

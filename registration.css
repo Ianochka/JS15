@@ -1,0 +1,79 @@
+.container {
+    width: 70%;
+    margin-left: 1%;
+    padding: 10px, 0px, 10px, 10px;
+}
+
+.registration-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.registration-form__radio-btns {
+    margin: 10px 20px;
+}
+
+.registration-form__field {
+    height: 30px;
+    margin: 5px 20px;
+    padding-left: 10px;
+}
+
+.register-button {
+    width: 150px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    margin: 10px 20px;
+}
+
+.title,
+.subtitle,
+.paragraph,
+.paragraph_small {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.title {
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-size: 1.1em;
+}
+.paragraph_small{
+    font-size: 1em;
+}
+
+.note {
+    font-size: 0.875em;
+    color: grey;
+}
+
+.errorMessage {
+    margin: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.875em;
+    color: brown;
+}
+
+#success {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}

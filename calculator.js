@@ -20,9 +20,10 @@ function division() {
     number1 = document.getElementById('number1').value;
     number2 = document.getElementById('number2').value;
     if(number2=='0') {
-        alert('На ноль делить нельзя!')
+        result='На ноль делить нельзя!';
+    } else {
+        result = Number(number1) / Number(number2);
     }
-    result = Number(number1) / Number(number2);
     document.getElementById('result').innerHTML = result;
 }
 
@@ -33,10 +34,3 @@ function multiplication() {
     result = Number(number1) * Number(number2);
     document.getElementById('result').innerHTML = result;
 }
-
-/* function check() {
-    let number2 = document.getElementById('number2').value;
-    if(number2=='0') {
-        alert('На ноль делить нельзя!')
-    }
-} */
